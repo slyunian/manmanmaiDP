@@ -1,0 +1,211 @@
+@desgin: 750;
+@base: 75rem;
+
+.mm_main {
+    background-color: #f1f1f1;
+
+
+
+    .mm_nav {
+        padding-top: 48/@base;
+        background-color: #fff;
+        text-align: center;
+
+        // padding: 48/@base 44/@base;
+        img {
+            width: 140/@base;
+            height: 140/@base;
+            display: block;
+        }
+
+        li {
+            float: left;
+            // width: 15%;
+            margin: 23/@base;
+            margin-top: 0;
+            text-align: center;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+
+                p {
+                    margin-top: 14/@base;
+                    font-size: 28/@base;
+                    color: #060606;
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    .mm_proudct {
+        margin-top: 10/@base;
+
+        .pdDemo {
+            // background-color: pink;
+            background-color: #fff;
+            border-bottom: 2px solid #e7e7e7;
+
+            .left {
+                padding: 30/@base 30/@base;
+
+                img {
+                    width: 160/@base;
+                    height: 160/@base;
+                }
+            }
+
+            .right {
+                width: 510/@base;
+
+                .top {
+                    margin-top: 40/@base;
+                    padding-right: 30/@base;
+                    font-size: 30/@base;
+                    // height: 100/@base;
+
+                    span {
+                        color: #ff6959;
+                    }
+                }
+
+                .bottom {
+                    margin-top: 10/@base;
+                    margin-bottom: 10/@base;
+                    padding-right: 15/@base;
+
+                    span {
+                        font-size: 24/@base;
+                        color: #93828f;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .p_title {
+        height: 70/@base;
+        width: 100%;
+        background-color: #ff9000;
+        padding: 0 18/@base;
+        line-height: 70/@base;
+
+        // background-image:gradient(linear,0,0,0 100%,form(#ffafff47),to(#ff9000));
+        background-image: linear-gradient(to right, #ffaf47 0%, #ff9000 100%);
+
+        span {
+            font-size: 32/@base;
+            color: #fff;
+        }
+
+        img {
+            margin-top: 15/@base;
+            width: 40/@base;
+            height: 40/@base;
+        }
+    }
+
+    .mm_more {
+        height: 105/@base;
+        text-align: center;
+
+        button {
+            height: 63/@base;
+            width: 710/@base;
+            margin-top: 14/@base;
+            border-radius: 20/@base;
+            font-size: 30/@base;
+            background-color: #fafafa;
+            border: 2px solid #dcdcdc;
+        }
+
+
+    }
+}
+
+
+
+.mm_header {
+    text-align: center;
+    font-size: 40/@base;
+    font-weight: 700;
+    color: #fff;
+
+    #logo {
+        margin-top: 25/@base;
+        display: block;
+        width: 50/@base;
+        height: 50/@base;
+    }
+}
+
+
+.paging {
+    height: 94/@base;
+    text-align: center;
+    padding-left: 38/@base;
+    background-color: #fff;
+    padding-top: 20/@base;
+    padding-bottom: 50/@base;
+    position: relative;
+
+    .set_page {
+        position: absolute;
+        background-color: #fff;
+        max-height: 204/@base;
+        top: 23/@base;
+        left: 291/@base;
+        width: 120/@base;
+        overflow: scroll;
+
+        li {
+            z-index: 1000;
+            position: relative;
+            background-color: #fff;
+            border: 1/@base dashed #ccc;
+            height: 60/@base;
+            text-align: center;
+            line-height: 68/@base;
+        }
+    }
+
+    a {
+        display: block;
+        float: left;
+        line-height: 68/@base;
+        height: 68/@base;
+        width: 162/@base;
+    }
+
+    .plb {
+        background-color: #dbdbdb;
+        border-radius: 10/@base;
+    }
+
+    .pages {
+        border: 2/@base solid #bcbcbc;
+        margin: 0 90/@base;
+        position: relative;
+        font-weight: 700;
+
+        div {
+            float: right;
+            height: 100%;
+            width: 38/@base;
+            border: 1/@base solid #9e9e9e;
+            font-size: 12/@base;
+        }
+
+        span {
+            i {
+                font-style: normal;
+            }
+        }
+
+    }
+
+}

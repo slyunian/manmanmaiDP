@@ -1,0 +1,55 @@
+.product_list .pdContent {
+  margin-top: 0.13333333rem;
+}
+.product_list .pdContent .pdDemo {
+  background-color: #fff;
+  border-bottom: 2px solid #e7e7e7;
+}
+.product_list .pdContent .pdDemo .left {
+  padding: 0.4rem 0.4rem;
+}
+.product_list .pdContent .pdDemo .left img {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+}
+.product_list .pdContent .pdDemo .right {
+  width: 6.8rem;
+}
+.product_list .pdContent .pdDemo .right .top {
+  margin-top: 0.26666667rem;
+  padding-right: 0.4rem;
+  font-size: 0.4rem;
+}
+.product_list .pdContent .pdDemo .right .cl {
+  margin-top: 0.06666667rem;
+  color: #ea3416;
+}
+.product_list .pdContent .pdDemo .right .bottom {
+  margin-top: 0.06666667rem;
+  margin-bottom: 0.13333333rem;
+  padding-right: 0.2rem;
+}
+.product_list .pdContent .pdDemo .right .bottom span {
+  font-size: 0.32rem;
+  color: #93828f;
+}
+.pagination {
+  margin-top: 0.13333333rem;
+  height: 1.33333333rem;
+  padding: 0 0.53333333rem;
+  text-align: center;
+}
+.pagination button {
+  font-size: 0.34666667rem;
+  border: 1px solid #cdcdcd;
+  border-radius: 0.06666667rem;
+  margin-top: 0.13333333rem;
+  width: 1.64rem;
+  height: 0.74666667rem;
+  text-align: center;
+}
+.pagination select {
+  padding-left: 0.26666667rem;
+  width: 2.66666667rem;
+  height: 0.93333333rem;
+}

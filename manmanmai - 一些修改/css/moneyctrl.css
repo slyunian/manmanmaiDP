@@ -1,0 +1,160 @@
+.mm_main {
+  background-color: #f1f1f1;
+}
+.mm_main .mm_nav {
+  padding-top: 0.64rem;
+  background-color: #fff;
+  text-align: center;
+}
+.mm_main .mm_nav img {
+  width: 1.86666667rem;
+  height: 1.86666667rem;
+  display: block;
+}
+.mm_main .mm_nav li {
+  float: left;
+  margin: 0.30666667rem;
+  margin-top: 0;
+  text-align: center;
+}
+.mm_main .mm_nav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mm_main .mm_nav li a p {
+  margin-top: 0.18666667rem;
+  font-size: 0.37333333rem;
+  color: #060606;
+  width: 100%;
+}
+.mm_main .mm_proudct {
+  margin-top: 0.13333333rem;
+}
+.mm_main .mm_proudct .pdDemo {
+  background-color: #fff;
+  border-bottom: 2px solid #e7e7e7;
+}
+.mm_main .mm_proudct .pdDemo .left {
+  padding: 0.4rem 0.4rem;
+}
+.mm_main .mm_proudct .pdDemo .left img {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+}
+.mm_main .mm_proudct .pdDemo .right {
+  width: 6.8rem;
+}
+.mm_main .mm_proudct .pdDemo .right .top {
+  margin-top: 0.53333333rem;
+  padding-right: 0.4rem;
+  font-size: 0.4rem;
+}
+.mm_main .mm_proudct .pdDemo .right .top span {
+  color: #ff6959;
+}
+.mm_main .mm_proudct .pdDemo .right .bottom {
+  margin-top: 0.13333333rem;
+  margin-bottom: 0.13333333rem;
+  padding-right: 0.2rem;
+}
+.mm_main .mm_proudct .pdDemo .right .bottom span {
+  font-size: 0.32rem;
+  color: #93828f;
+}
+.mm_main .p_title {
+  height: 0.93333333rem;
+  width: 100%;
+  background-color: #ff9000;
+  padding: 0 0.24rem;
+  line-height: 0.93333333rem;
+  background-image: linear-gradient(to right, #ffaf47 0%, #ff9000 100%);
+}
+.mm_main .p_title span {
+  font-size: 0.42666667rem;
+  color: #fff;
+}
+.mm_main .p_title img {
+  margin-top: 0.2rem;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+}
+.mm_main .mm_more {
+  height: 1.4rem;
+  text-align: center;
+}
+.mm_main .mm_more button {
+  height: 0.84rem;
+  width: 9.46666667rem;
+  margin-top: 0.18666667rem;
+  border-radius: 0.26666667rem;
+  font-size: 0.4rem;
+  background-color: #fafafa;
+  border: 2px solid #dcdcdc;
+}
+.mm_header {
+  text-align: center;
+  font-size: 0.53333333rem;
+  font-weight: 700;
+  color: #fff;
+}
+.mm_header #logo {
+  margin-top: 0.33333333rem;
+  display: block;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+.paging {
+  height: 1.25333333rem;
+  text-align: center;
+  padding-left: 0.50666667rem;
+  background-color: #fff;
+  padding-top: 0.26666667rem;
+  padding-bottom: 0.66666667rem;
+  position: relative;
+}
+.paging .set_page {
+  position: absolute;
+  background-color: #fff;
+  max-height: 2.72rem;
+  top: 0.30666667rem;
+  left: 3.88rem;
+  width: 1.6rem;
+  overflow: scroll;
+}
+.paging .set_page li {
+  z-index: 1000;
+  position: relative;
+  background-color: #fff;
+  border: 0.01333333rem dashed #ccc;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.90666667rem;
+}
+.paging a {
+  display: block;
+  float: left;
+  line-height: 0.90666667rem;
+  height: 0.90666667rem;
+  width: 2.16rem;
+}
+.paging .plb {
+  background-color: #dbdbdb;
+  border-radius: 0.13333333rem;
+}
+.paging .pages {
+  border: 0.02666667rem solid #bcbcbc;
+  margin: 0 1.2rem;
+  position: relative;
+  font-weight: 700;
+}
+.paging .pages div {
+  float: right;
+  height: 100%;
+  width: 0.50666667rem;
+  border: 0.01333333rem solid #9e9e9e;
+  font-size: 0.16rem;
+}
+.paging .pages span i {
+  font-style: normal;
+}

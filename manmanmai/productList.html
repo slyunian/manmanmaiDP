@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/productList.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="mm_header">
+            <div class="left fl">
+                <img src="./images/header_logo.png" class="logo ">
+            </div>
+            <div class="right fr">
+                <img src="./images/header_app.png" class="app ">
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="mm_main">
+            <!-- 搜索框 -->
+            <div class="mm_search clearfix">
+                <input type="text" placeholder="请输入你想比价的商品" class="fl">
+                <button class="fr">搜索</button>
+            </div>
+            <!-- 列表-->
+            <div class="product_list">
+                <div class="pdTitle">
+                    <a href="index.html">首页</a>
+                    <a href="javascript:;">></a>
+                    <a href="category.html">全部分类</a>
+                    <a href="javascript:;">></a>
+                    <a href="javascript:;" class="item">电视</a>
+                    <a href="javascript:;">></a>
+                    <button class="fr">筛选</button>
+                </div>
+                <div class="pdContent">
+                    <!-- 渲染模板 -->
+                </div>
+            </div>
+            <!-- 分页样式 -->
+            <div class="pagination">
+                <button class="fl">上一页</button>
+                <select name="" id="">
+                    <!-- <option >1</option> -->
+                </select>
+                <button class="fr">下一页</button>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="mm_footer">
+        <ul class="clearfix">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#"><i></i>返回顶部</a></li>
+        </ul>
+        <div class="top">
+            <span>手机App下载</span>
+            <span>慢慢买手机版</span>
+            <span>--掌上比价平台</span>
+        </div>
+        <div class="bottom">m.manmanbuy.com</div>
+    </div>
+    </div>
+
+
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/flexible/flexible.js"></script>
+    <script src="./lib/swiper/js/swiper.min.js"></script>
+    <!-- <script src="./lib/IScroll/iscroll.js"></script> -->
+    <script src="./lib/Template/template-web.js"></script>
+    <script src="./js/productList.js"></script>
+    <script type="text/html" id="ListTb">
+        {{each result v i}}
+            <a href="product.html?key={{v.brandName}}&value={{v.categoryId}}&id={{v.productId}}">
+                <div class="pdDemo clearfix" data-id="">
+                    <div class="left fl">
+                        {{@v.productImg}}
+                    </div>
+                    <div class="right fr">
+                        <div class="top clearfix">{{v.productName}}
+                        </div>
+                        <div class="cl">{{v.productPrice}}</div>
+                        <div class="bottom">
+                            <span>{{v.productQuote}}</span>
+                            <span>{{v.productCom}}</span>
+                        </div>
+                    </div>
+                </div>
+            
+            </a>
+        {{/each}}
+    </script>
+</body>
+
+</html>

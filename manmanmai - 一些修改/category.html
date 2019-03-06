@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/category.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="mm_header">
+            <div class="left fl">
+                <img src="./images/header_logo.png" class="logo ">
+            </div>
+            <div class="right fr">
+                <img src="./images/header_app.png" class="app ">
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="mm_main">
+            <!-- 搜索框 -->
+            <div class="mm_search clearfix">
+                <input type="text" placeholder="请输入你想比价的商品" class="fl">
+                <button class="fr">搜索</button>
+            </div>
+            <!-- 分类列表 -->
+            <div class="category_list">
+
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="mm_footer">
+        <ul class="clearfix">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#"><i></i>返回顶部</a></li>
+        </ul>
+        <div class="top">
+            <span>手机App下载</span>
+            <span>慢慢买手机版</span>
+            <span>--掌上比价平台</span>
+        </div>
+        <div class="bottom">m.manmanbuy.com</div>
+    </div>
+    </div>
+
+
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/flexible/flexible.js"></script>
+    <script src="./lib/swiper/js/swiper.min.js"></script>
+    <!-- <script src="./lib/IScroll/iscroll.js"></script> -->
+    <script src="./lib/Template/template-web.js"></script>
+    <script src="./js/category.js"></script>
+    <script src="./js/common.js"></script>
+    <script type="text/html" id="navone">
+        {{each result v i}}
+            <div class="cateDemo">
+                <div class="cate_top" data-id="{{v.titleId}}">
+                    <div class="left fl">{{v.title}}</div>
+                    <span class="fr">▼</span>
+                </div>
+                <div class="cate_bottom hide"">
+                   
+                </div>
+            </div>
+        {{/each}}
+    </script>
+    <script type="text/html" id="navtwo">
+        <ul class="clearfix" >
+            {{each result v i}}
+            <!-- <li><a href="" data-id="{{v.categoryId}}">{{v.category}}</a></li> -->
+            <li><a href="productList.html?key={{v.category}}&value={{v.categoryId}}">{{v.category}}</a></li> 
+            {{/each}}
+        </ul>
+    </script>
+
+</body>
+
+</html>

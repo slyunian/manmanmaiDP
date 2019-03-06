@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/couponproduct.css">
+</head>
+
+<body>
+    <!-- 遮罩 -->
+    <div class="model hide">
+        <div class="info1" style=" text-align: center;">
+            --点击图片关闭弹框--
+        </div>
+        <div class="left fl"><</div>
+        <div class="right fr">></div>
+        <img src="">
+    </div>
+    <div class="container clearfix">
+        <!-- 头部 -->
+        <div class="mm_header">
+            <div class="left fl">
+                <a href="javascript:history.back();"><img src="./images/返回 (1).png" id="logo"></a>
+            </div>
+            优惠券
+            <div class="right fr">
+                <img src="./images/header_app.png" class="app ">
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="mm_main">
+            <div class="tip">
+                --点餐前出示手机中的优惠券,即可享受优惠--
+            </div>
+            <ul class="titc clearfix">
+                <!-- 渲染优惠券 -->
+            </ul>
+        </div>
+        <!-- 底部 -->
+        <div class="mm_footer">
+            <ul class="clearfix">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#"><i></i>返回顶部</a></li>
+            </ul>
+            <div class="top">
+                <span>手机App下载</span>
+                <span>慢慢买手机版</span>
+                <span>--掌上比价平台</span>
+            </div>
+            <div class="bottom">m.manmanbuy.com</div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/flexible/flexible.js"></script>
+    <script src="./lib/swiper/js/swiper.min.js"></script>
+    <script src="./lib/IScroll/iscroll.js"></script>
+    <script src="./lib/Template/template-web.js"></script>
+    <script src="./js/couponproduct.js"></script>
+    <script src="./js/common.js"></script>
+
+    <script type="text/html" id="nav">
+        {{each result v i}}
+            <li class="clearfix">
+                <a href="javascript:;">
+                    <div class="left fl">
+                        {{@v.couponProductImg}}
+                    </div>
+                    <div class="right fl">
+                        <p>{{v.couponProductName}}</p>
+                        <p class='price'>{{v.couponProductPrice}}</p>
+                        <p class="data">
+                            {{v.couponProductTime}}
+                        </p>
+                    </div>
+                </a>
+            </li>
+        {{/each}}
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+.mm_header {
+  text-align: center;
+  font-size: 0.53333333rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #f4483e;
+}
+.mm_header #logo {
+  margin-top: 0.33333333rem;
+  display: block;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+#wrapper {
+  overflow: hidden;
+  background-color: #fff;
+}
+#wrapper ul {
+  width: 18.66666667rem;
+}
+#wrapper ul li {
+  line-height: 1rem;
+  height: 1.06666667rem;
+  float: left;
+}
+#wrapper ul li a {
+  border-bottom: 1px solid transparent;
+  display: block;
+  height: 100%;
+  margin: 0 0.29333333rem;
+  font-size: 0.34666667rem;
+}
+#wrapper ul li a.active {
+  border-bottom: 2px solid #fc353a;
+  color: #f4483e;
+}
+.proDemo {
+  margin-top: 0.2rem;
+  padding: 0.13333333rem;
+  background-color: #fff;
+  width: 100%;
+}
+.proDemo .left img {
+  display: block;
+  width: 3.33333333rem;
+  height: 3.33333333rem;
+}
+.proDemo .right {
+  height: 100%;
+  padding-left: 0.13333333rem;
+}
+.proDemo .right .top {
+  height: 1.06666667rem;
+  width: 5.86666667rem;
+  font-size: 0.4rem;
+  display: block;
+}
+.proDemo .right .price {
+  color: #f4483e;
+  font-size: 0.45333333rem;
+}
+.proDemo .right .price i {
+  font-style: normal;
+  font-size: 0.4rem;
+  padding-left: 0.06666667rem;
+}
+.proDemo .right .price em {
+  padding-left: 0.06666667rem;
+  font-style: normal;
+  font-size: 0.24rem;
+}
+.proDemo .right .price del {
+  color: #959091;
+  font-size: 0.26666667rem;
+  margin-left: 0.34666667rem;
+}
+.proDemo .right .barBox {
+  margin-top: 0.13333333rem;
+  height: 0.6rem;
+}
+.proDemo .right .barBox .bar {
+  position: relative;
+}
+.proDemo .right .barBox .bar i {
+  font-style: normal;
+  height: 0.42666667rem;
+  width: 2.26666667rem;
+  background-color: #ffb7b7;
+  border: 2px solid #f4483e;
+  border-radius: 0.2rem;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 0.66666667rem;
+  position: absolute;
+  top: 0.13333333rem;
+  left: 0;
+  overflow: hidden;
+}
+.proDemo .right .barBox .bar span {
+  display: block;
+  font-size: 0.21333333rem;
+  color: #fff;
+  line-height: 0.4rem;
+  position: absolute;
+  left: 44%;
+}
+.proDemo .right .barBox .bar b {
+  font-size: 0.32rem;
+  color: #f4483e;
+  font-weight: normal;
+  position: absolute;
+  left: 2.66666667rem;
+  top: 0.10666667rem;
+}
+.proDemo .right .barBox .bar em {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f4483e;
+}
+.proDemo .right .bottom {
+  margin-top: 0.21333333rem;
+  width: 100%;
+}
+.proDemo .right .bottom a {
+  font-size: 0.32rem;
+}
+.proDemo .right .bottom .fl a {
+  display: block;
+  color: #f4483e;
+  height: 0.72rem;
+  width: 2.93333333rem;
+  text-align: center;
+  line-height: 0.72rem;
+  box-sizing: border-box;
+  border: 1px dashed #f4483e;
+  border-radius: 0.06666667rem;
+}
+.proDemo .right .bottom .fr a {
+  border-radius: 0.06666667rem;
+  display: block;
+  color: #fff;
+  background-color: #f4483e;
+  height: 0.74666667rem;
+  width: 1.49333333rem;
+  text-align: center;
+  line-height: 0.72rem;
+  box-sizing: border-box;
+}

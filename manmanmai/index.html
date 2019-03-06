@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="mm_header">
+            <div class="left fl">
+                <img src="./images/header_logo.png" class="logo ">
+            </div>
+            <div class="right fr">
+                <img src="./images/header_app.png" class="app ">
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="mm_main">
+            <!-- 搜索框 -->
+            <div class="mm_search clearfix">
+                <input type="text" placeholder="暂无搜索功能" class="fl">
+                <button class="fr">搜索</button>
+            </div>
+            <!-- 导航 -->
+            <div class="mm_nav">
+                <ul class="clearfix">
+                    <!-- 模板渲染 -->
+                </ul>
+            </div>
+            <!-- 商品 -->
+            <div class="mm_proudct">
+                <div class="p_title">
+                    <span class="fl">超值折扣推荐</span>
+                    <img src="./images/more.png" class="fr">
+                </div>
+                <div class="p_body">
+                    <!-- 渲染列表 -->
+                </div>
+            </div>
+            <div class="mm_more">
+                <button>获取更多信息</button>
+            </div>
+            <!-- 跳转用 -->
+            <div class="p_title">
+                <span class="fl">品牌排行</span>
+                <img src="./images/more.png" class="fr">
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="mm_footer">
+            <ul class="clearfix">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#"><i></i>返回顶部</a></li>
+            </ul>
+            <div class="top">
+                <span>手机App下载</span>
+                <span>慢慢买手机版</span>
+                <span>--掌上比价平台</span>
+            </div>
+            <div class="bottom">m.manmanbuy.com</div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/flexible/flexible.js"></script>
+    <script src="./lib/swiper/js/swiper.min.js"></script>
+    <!-- <script src="./lib/IScroll/iscroll.js"></script> -->
+    <script src="./lib/Template/template-web.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/common.js"></script>
+    <script type="text/html" id="navone">
+        {{each result v i}}
+        <li data-id="{{v.indexmenuId}}" class="{{v.indexmenuId > 7 ? 'hide':''}}" >
+                <a href="{{v.titlehref}}">
+                  {{@v.img}}
+                  <p>{{v.name}}</p>
+                </a>
+         </li>
+        {{/each}}
+    </script>
+    <script type="text/html" id="navtwo">
+        {{each result v i}}
+        <div class="pdDemo clearfix" data-id="{{v.productId}}">
+                <div class="left fl">
+                    {{@v.productImgSm}}
+                </div>
+                <div class="right fr">
+                    <p class="top">
+                        {{v.productName}}
+                        <span>{{v.productPinkage}}</span>
+                    </p>
+                    <div class="bottom">
+                        <span class="fl">{{v.productFrom}}</span>
+                        <span class="fl"> &nbsp; | &nbsp; </span>
+                        <span class="fl">{{v.productTime}}</span>
+                        <span class="fr">{{v.productComCount}}</span>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </script>
+</body>
+
+</html>

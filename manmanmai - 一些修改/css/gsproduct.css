@@ -1,0 +1,120 @@
+.mm_header {
+  text-align: center;
+  font-size: 0.53333333rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ff841d;
+}
+.mm_header #logo {
+  margin-top: 0.33333333rem;
+  display: block;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+.mm_main {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.mm_main .header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  height: 1.06666667rem;
+  border-bottom: 2px solid #dadada;
+}
+.mm_main .header .dropup {
+  position: relative;
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+.mm_main .header .dropup .store {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  font-size: 0.4rem;
+}
+.mm_main .header .dropup .store.send strong {
+  line-height: 100%;
+  font-size: 0.24rem;
+}
+.mm_main .header .dropup .store strong {
+  font-weight: normal;
+}
+.mm_main .header .dropup .dropdown {
+  position: absolute;
+  width: 333.33333333%;
+  background-color: #fff;
+  left: 0;
+  top: 1.08rem;
+}
+.mm_main .header .dropup .dropdown.two {
+  left: -100%;
+}
+.mm_main .header .dropup .dropdown.three {
+  left: -200%;
+}
+.mm_main .header .dropup .dropdown li {
+  height: 0.66666667rem;
+  border-bottom: 1px solid #dadada;
+  font-size: 0.32rem;
+  line-height: 0.66666667rem;
+  padding-left: 0.26666667rem;
+}
+.mm_main .header .box {
+  height: 100%;
+  width: 10%;
+  float: left;
+  border-left: 2px solid #dadada;
+}
+.mm_main .header .box img {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: 30% auto;
+}
+.mm_main .probody {
+  margin-top: 1.33333333rem;
+}
+.mm_main .probody .boxDemo {
+  background-color: #fff;
+  width: 4.7rem;
+  height: 6.09333333rem;
+  float: left;
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.mm_main .probody .boxDemo .top {
+  width: 100%;
+  height: 4.66666667rem;
+}
+.mm_main .probody .boxDemo .top img {
+  width: 100%;
+  height: 100%;
+}
+.mm_main .probody .boxDemo .bottom p {
+  width: 4.18666667rem;
+  padding-left: 0.13333333rem;
+  font-size: 0.26666667rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 0.02666667rem;
+  margin-bottom: 0.2rem;
+}
+.mm_main .probody .boxDemo .bottom span {
+  font-size: 0.4rem;
+  color: #ff841d;
+  margin-left: 0.13333333rem;
+}
+.mm_main .probody .boxDemo .bottom button {
+  color: #fff;
+  background-color: #ff841d;
+  border: none;
+  border-radius: 0.13333333rem;
+  margin-right: 0.13333333rem;
+  font-size: 0.4rem;
+  width: 1.64rem;
+  height: 0.73333333rem;
+}

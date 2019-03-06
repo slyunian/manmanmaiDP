@@ -1,0 +1,187 @@
+@desgin: 750;
+@base: 75rem;
+@red: #f4483e;
+
+.mm_header {
+    text-align: center;
+    font-size: 40/@base;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f4483e;
+
+    #logo {
+        margin-top: 25/@base;
+        display: block;
+        width: 50/@base;
+        height: 50/@base;
+    }
+}
+
+#wrapper {
+    overflow: hidden;
+    background-color: #fff;
+
+    ul {
+        width: 1400/@base;
+
+        li {
+            line-height: 75/@base;
+            height: 80/@base;
+            float: left;
+
+            a {
+                border-bottom: 1px solid transparent;
+                display: block;
+                height: 100%;
+                margin: 0 22/@base;
+                font-size: 26/@base;
+
+                &.active {
+                    border-bottom: 2px solid #fc353a;
+                    color: @red;
+                }
+            }
+        }
+    }
+}
+
+.proDemo {
+    margin-top: 15/@base;
+    padding: 10/@base;
+    background-color: #fff;
+    width: 100%;
+
+    .left {
+        img {
+            display: block;
+            width: 250/@base;
+            height: 250/@base;
+        }
+    }
+
+    .right {
+        height: 100%;
+        padding-left: 10/@base;
+
+        .top {
+            height: 80/@base;
+            width: 440/@base;
+            font-size: 30/@base;
+            display: block;
+        }
+
+        .price {
+            color: @red;
+            font-size: 34/@base;
+
+            i {
+                font-style: normal;
+                font-size: 30/@base;
+                padding-left: 5/@base;
+            }
+
+            em {
+                padding-left: 5/@base;
+                font-style: normal;
+                font-size: 18/@base;
+            }
+
+            del {
+                color: #959091;
+                font-size: 20/@base;
+                margin-left: 26/@base;
+            }
+        }
+
+        .barBox {
+            margin-top: 10/@base;
+            height: 45/@base;
+
+            .bar {
+                position: relative;
+
+                i {
+                    font-style: normal;
+                    height: 32/@base;
+                    width: 170/@base;
+                    background-color: #ffb7b7;
+                    border: 2px solid @red;
+                    border-radius: 15/@base;
+                    display: block;
+                    float: left;
+                    text-align: center;
+                    line-height: 50/@base;
+                    position: absolute;
+                    top: 10/@base;
+                    left: 0;
+                    overflow: hidden;
+                }
+
+                span {
+                    display: block;
+                    font-size: 16/@base;
+                    color: #fff;
+                    line-height: 30/@base;
+                    position: absolute;
+                    left: 44%;
+                }
+
+                b {
+                    font-size: 24/@base;
+                    color: @red;
+                    font-weight: normal;
+                    position: absolute;
+                    left: 200/@base;
+                    top: 8/@base;
+                }
+
+                em {
+                    position: absolute;
+                    height: 100%;
+                    // width: 50%;
+                    top: 0;
+                    left: 0;
+                    background-color: @red;
+                }
+            }
+        }
+
+        .bottom {
+            margin-top: 16/@base;
+            width: 100%;
+
+            a {
+                font-size: 24/@base;
+            }
+            
+            .fl {
+                a {
+                    display: block;
+                    color: @red;
+                    height: 54/@base;
+                    width: 220/@base;
+                    text-align: center;
+                    line-height: 54/@base;
+                    box-sizing: border-box;
+                    border: 1px dashed @red;
+                    border-radius: 5/@base;
+                }
+            }
+            .fr{
+                // padding-left: 120/@base;
+                a{
+                    border-radius: 5/@base;
+                    display: block;
+                    color: #fff;
+                    background-color: @red;
+                    height: 56/@base;
+                    width: 112/@base;
+                    text-align: center;
+                    line-height: 54/@base;
+                    box-sizing: border-box;
+                    
+                }
+            }
+        }
+    }
+}

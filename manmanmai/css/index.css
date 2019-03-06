@@ -1,0 +1,94 @@
+.mm_main {
+  background-color: #f1f1f1;
+}
+.mm_main .mm_nav {
+  padding-top: 0.64rem;
+  background-color: #fff;
+  text-align: center;
+}
+.mm_main .mm_nav img {
+  width: 1.86666667rem;
+  height: 1.86666667rem;
+  display: block;
+}
+.mm_main .mm_nav li {
+  float: left;
+  margin: 0.30666667rem;
+  margin-top: 0;
+  text-align: center;
+}
+.mm_main .mm_nav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mm_main .mm_nav li a p {
+  margin-top: 0.18666667rem;
+  font-size: 0.37333333rem;
+  color: #060606;
+  width: 100%;
+}
+.mm_main .mm_proudct {
+  margin-top: 0.13333333rem;
+}
+.mm_main .mm_proudct .pdDemo {
+  background-color: #fff;
+  border-bottom: 2px solid #e7e7e7;
+}
+.mm_main .mm_proudct .pdDemo .left {
+  padding: 0.4rem 0.4rem;
+}
+.mm_main .mm_proudct .pdDemo .left img {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+}
+.mm_main .mm_proudct .pdDemo .right {
+  width: 6.8rem;
+}
+.mm_main .mm_proudct .pdDemo .right .top {
+  margin-top: 0.53333333rem;
+  padding-right: 0.4rem;
+  font-size: 0.4rem;
+}
+.mm_main .mm_proudct .pdDemo .right .top span {
+  color: #ff6959;
+}
+.mm_main .mm_proudct .pdDemo .right .bottom {
+  margin-top: 0.13333333rem;
+  margin-bottom: 0.13333333rem;
+  padding-right: 0.2rem;
+}
+.mm_main .mm_proudct .pdDemo .right .bottom span {
+  font-size: 0.32rem;
+  color: #93828f;
+}
+.mm_main .p_title {
+  height: 0.93333333rem;
+  width: 100%;
+  background-color: #ff9000;
+  padding: 0 0.24rem;
+  line-height: 0.93333333rem;
+  background-image: linear-gradient(to right, #ffaf47 0%, #ff9000 100%);
+}
+.mm_main .p_title span {
+  font-size: 0.42666667rem;
+  color: #fff;
+}
+.mm_main .p_title img {
+  margin-top: 0.2rem;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+}
+.mm_main .mm_more {
+  height: 1.4rem;
+  text-align: center;
+}
+.mm_main .mm_more button {
+  height: 0.84rem;
+  width: 9.46666667rem;
+  margin-top: 0.18666667rem;
+  border-radius: 0.26666667rem;
+  font-size: 0.4rem;
+  background-color: #fafafa;
+  border: 2px solid #dcdcdc;
+}

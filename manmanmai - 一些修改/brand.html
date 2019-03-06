@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/brand.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="mm_header">
+            <div class="left fl">
+                <img src="./images/header_logo.png" class="logo ">
+            </div>
+            <div class="right fr">
+                <img src="./images/header_app.png" class="app ">
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="mm_main">
+            <!-- 搜索框 -->
+            <div class="mm_search clearfix">
+                <input type="text" placeholder="请输入你想比价的商品" class="fl">
+                <button class="fr">搜索</button>
+            </div>
+            <!-- 列表-->
+            <div class="product_list">
+                <div class="pdTitle">
+                    <a href="index.html">首页</a>
+                    <a href="javascript:;">></a>
+                    <a href="brandTitle.html">全部分类</a>
+                    <a href="javascript:;">></a>
+                    <a href="javascript:;" class="linkname">电视品牌</a>
+                </div>
+                <div class="middle th1">热门品牌排行</div>
+                <div class="pdContent">
+                    <ul class="clearfix nav1">
+                        <!-- 渲染模板 -->
+                    </ul>
+                </div>
+                <div class="middle th2">热门品牌排行</div>
+                <div class="pdContent">
+                    <ul class="clearfix nav2">
+                        <!-- 渲染模板 -->
+                    </ul>
+                </div>
+                <div class="middle th3">热门品牌排行</div>
+                <div class="pdContent">
+                    <ul class="clearfix nav3">
+                        <!-- 渲染模板 -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="mm_footer">
+        <ul class="clearfix">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#"><i></i>返回顶部</a></li>
+        </ul>
+        <div class="top">
+            <span>手机App下载</span>
+            <span>慢慢买手机版</span>
+            <span>--掌上比价平台</span>
+        </div>
+        <div class="bottom">m.manmanbuy.com</div>
+    </div>
+    </div>
+
+
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/flexible/flexible.js"></script>
+    <script src="./lib/swiper/js/swiper.min.js"></script>
+    <!-- <script src="./lib/IScroll/iscroll.js"></script> -->
+    <script src="./lib/Template/template-web.js"></script>
+    <script src="./js/brand.js"></script>
+
+    <script type="text/html" id="nav1">
+        {{each result v i}}
+            <li>
+                <div class="left fl">
+                    <span>{{i+1}}</span>
+                </div>
+                <div class="right fl">
+                    <p>{{v.brandName}}</p>
+                    <p>{{v.brandInfo}}</p>
+                </div>
+            </li>
+        {{/each}}
+    </script>
+    <script type="text/html" id="nav2">
+        {{each result v i}}
+            <li>
+             <div class="left fl">
+                 {{@v.productImg}}
+             </div>
+             <div class="right fl">
+                 <p>{{v.productName}}</p>
+                 <p>{{v.productPrice}}</p>
+                 <p>
+                     <span>{{v.productQuote}}</span>
+                     &nbsp;
+                     <span>{{v.productCom}}</span>
+                 </p>
+             </div>
+            </li>
+        {{/each}}
+    </script>
+    <script type="text/html" id="nav3">
+        {{each result v i}}
+            <li>
+                <div class="top">
+                    <div class="imgBox fl">
+                        <img src="./images/categorylist.jpg" alt="">
+                    </div>
+                    <p class="right fr">乐视TV(Letv) 超3 X55 55英寸智能LED液晶 超级电视 4K超清电视</p>
+                </div>
+                 <div class="bottom">
+                    <span id='sjx'></span>
+                     <div class='clearfix'>
+                         <span class='fl'>{{v.comName}}</span>
+                         <span class='fr'>{{v.comTime}}</span>
+                        </div>
+                        <p>{{v.comContent}}</p>
+                    </div>
+            </li>
+        {{/each}}
+    </script>
+</body>
+
+</html>

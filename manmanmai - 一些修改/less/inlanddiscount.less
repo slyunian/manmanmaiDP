@@ -1,0 +1,66 @@
+@desgin: 750;
+@base: 75rem;
+
+
+.mm_header {
+    text-align: center;
+    font-size: 40/@base;
+    font-weight: 700;
+    color: #fff;
+
+    #logo {
+        margin-top: 25/@base;
+        display: block;
+        width: 50/@base;
+        height: 50/@base;
+    }
+}
+
+li {
+    background-color: #fff;
+    width: 50%;
+    float: left;
+    border-right: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+
+    &:nth-child(2n) {
+        border-right: none;
+
+    }
+
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        .imgBox {
+            padding: 36/@base;
+
+            img {
+                width: 300/@base;
+                height: 300/@base;
+                display: block;
+            }
+        }
+
+        .bottom {
+            padding: 36/@base;
+            padding-top: 0;
+
+            p {
+                font-size: 24/@base;
+
+                &.price {
+                    margin-top: 10/@base;
+                    color: #ff841d;
+                }
+            }
+
+            span {
+                font-size: 22/@base;
+                color: #a3a2a2;
+            }
+
+        }
+    }
+}    

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/countProudct.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="mm_header">
+            <div class="left fl">
+                <a href="javascript:history.back();"><img src="./images/返回 (1).png" id="logo"></a>
+            </div>
+            国内折扣
+            <div class="right fr">
+                <img src="./images/header_app.png" class="app ">
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="mm_main">
+
+            <!-- 商品 -->
+            <div class="mm_proudct">
+                <div class="p_body">
+                    <!-- 渲染列表 -->
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="mm_footer">
+            <ul class="clearfix">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#"><i></i>返回顶部</a></li>
+            </ul>
+            <div class="top">
+                <span>手机App下载</span>
+                <span>慢慢买手机版</span>
+                <span>--掌上比价平台</span>
+            </div>
+            <div class="bottom">m.manmanbuy.com</div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/Template/template-web.js"></script>
+    <script src="./lib/flexible/flexible.js"></script>
+    <script src="./lib/swiper/js/swiper.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/countProudct.js"></script>
+
+
+    <script type="text/html" id="navtwo">
+        <div class="title">{{productName}}</div> 
+        <div class="info">
+            <span>{{productFrom}}</span>
+            <span>{{productTime}}</span>
+            <span>{{productTips}}</span>
+        </div>
+        <div class="imgBox">
+            {{@productImg}}
+            <p>{{productInfo}}</p>
+        </div>
+        <div class="imgBox1">
+                {{@productImg}}            
+        </div>
+        <button class="buy">前往购买</button>
+        <img src="./images/mmbweixin2.png" alt="">
+        {{@productComment}}
+    </script>
+</body>
+
+</html>

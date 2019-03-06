@@ -1,0 +1,129 @@
+.pdmain {
+  padding-top: 0.53333333rem;
+  padding-bottom: 1.33333333rem;
+  background-color: #fff;
+  position: relative;
+}
+.pdmain p {
+  text-align: center;
+  padding: 0 0.4rem;
+}
+.pdmain img {
+  display: block;
+  text-align: center;
+  margin-top: 0.8rem;
+  height: 4rem;
+  width: 5.33333333rem;
+  margin: 0.8rem auto;
+  background-color: pink;
+}
+.pdmain div {
+  position: absolute;
+  right: 0.66666667rem;
+  bottom: 0.66666667rem;
+  width: 1.13333333rem;
+  height: 1.13333333rem;
+  line-height: 1.13333333rem;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #fff;
+  border-radius: 1.13333333rem;
+  border: 1px solid #79bb00;
+  background-color: #95d800;
+}
+.bj_ul {
+  height: 0.93333333rem;
+  list-style: none;
+}
+.bj_ul li {
+  float: left;
+  text-align: center;
+  font-size: 0.4rem;
+  width: 33.33333333%;
+  height: 100%;
+  line-height: 0.93333333rem;
+  color: #fff;
+  background-color: #ffcb3d;
+  border-top: 2px solid #bb4731;
+  border-bottom: 2px solid #bb4731;
+  border-left: 2px solid #bb4731;
+}
+.bj_ul li:first-child {
+  border-left: none;
+}
+.bj_ul li.now {
+  background-color: #ff9f23;
+}
+.priBox .red {
+  color: red;
+  padding-right: 0.4rem;
+}
+.priBox tr {
+  font-size: 0.46666667rem;
+  height: 1.17333333rem;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #c1c1c1;
+  padding-top: 0.29333333rem;
+}
+.priBox tr img {
+  width: 0.48rem;
+  height: 0.48rem;
+  display: block;
+  margin-left: 0.13333333rem;
+}
+.priBox tr td:nth-child(2) {
+  margin-left: 0.4rem;
+  margin-right: 3.2rem;
+}
+.priBox tr.tab2 {
+  font-size: 0.33333333rem;
+  color: #807e83;
+  padding: 22 0.13333333rem;
+  height: 1.6rem;
+  border-bottom: 5px solid #666666;
+  text-align: center;
+  display: block;
+}
+.commit .title {
+  text-align: center;
+  height: 0.93333333rem;
+  background-color: #dbdbdb;
+  line-height: 0.93333333rem;
+}
+.commit .listDemo {
+  padding-top: 0.46666667rem;
+  padding-left: 0.26666667rem;
+  padding-right: 0.26666667rem;
+  border-bottom: 2px solid #c4c4c4;
+  background-color: #fff;
+  font-size: 0.32rem;
+}
+.commit .listDemo .top {
+  width: 100%;
+  color: #584e4b;
+  text-align: right;
+}
+.commit .listDemo .top .left {
+  height: 100%;
+}
+.commit .listDemo .bottom {
+  text-align: left;
+  color: #000;
+  padding-top: 1.06666667rem;
+  padding-bottom: 0.13333333rem;
+}
+.mm_more {
+  height: 1.4rem;
+  text-align: center;
+}
+.mm_more button {
+  height: 0.84rem;
+  width: 9.46666667rem;
+  margin-top: 0.18666667rem;
+  border-radius: 0.26666667rem;
+  font-size: 0.4rem;
+  background-color: #fafafa;
+  border: 2px solid #dcdcdc;
+}
